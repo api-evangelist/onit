@@ -1,7 +1,28 @@
 aid: onit
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/onit.png
 name: Onit
-description: Onit is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Onit is a Kenyan digital bank operated by Onit Microfinance Bank Inc. and regulated
+  by the Central Bank of Kenya (CBK), with deposits protected by the Kenya Deposit
+  Insurance Corporation (KDIC). Formerly known as Shara, Onit provides a free
+  peer-to-peer transaction network linking consumers, businesses, and suppliers:
+  users can send and receive money instantly and at no cost between Onit accounts,
+  run separate personal and business accounts, and access loans and checkout/BNPL
+  finance from a single mobile app. The company positions open APIs as part of its
+  offering to let partners and merchants integrate consumer payments, though it does
+  not currently publish a public developer portal or API documentation. Onit is a
+  portfolio company of Speedinvest and operates in the emerging-markets fintech space.
 url: https://raw.githubusercontent.com/api-evangelist/onit/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +32,31 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Fintech
+- Neobank
+- Banking
+- Payments
+- Mobile Money
+- Kenya
+- Africa
+- Microfinance
+- Financial Services
+common:
+- type: DomainSecurity
+  url: security/onit-domain-security.yml
+- type: Website
+  url: https://onitbank.com
+- type: TermsOfService
+  url: https://www.onitbank.com/terms-conditions
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
