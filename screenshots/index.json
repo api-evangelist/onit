@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "onit",
+    "captured_at": "2026-10-11T191634",
+    "source_url": "https://onitbank.com",
+    "source_type": "Website",
+    "file": "onit-2026-10-11T191634.png",
+    "bytes": 10720,
+    "capture": "playwright-local"
+  }
+]
